@@ -1,0 +1,46 @@
+.react-single-player{
+    width: fit-content !important;
+    height:fit-content !important;
+}
+.single-right-side{
+    width: 30vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.single-left-side{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+.single-video-view{
+    display: flex;
+}
+.single-video-view h1{
+    font-family: Poppins;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    .single-video-view{
+        display: flex;
+        flex-direction: column;
+    }
+    .single-right-side{
+        width: 100vw;
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .single-left-side{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+}

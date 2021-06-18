@@ -1,0 +1,37 @@
+.loanform{
+    width: 50%;
+    margin: auto;
+    /* display:grid; */
+    /* align-self: center; */
+}
+.loanform h1{
+    font-family: Poppins;
+    color:black;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 57px;
+}
+.checkbox-div{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.pop-up{
+    z-index: 200000;
+    width: 200px;
+    height: 200px;
+    font-family: Poppins;
+    color:black;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 57px;
+}
+@media (max-width: 768px) {
+    .loanform{
+        padding: 10px;
+        width: fit-content;
+    }
+}
